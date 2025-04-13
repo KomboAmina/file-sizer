@@ -8,7 +8,7 @@ Call the static method getFileSize() and store the returned array in a variable.
 <?php
 $fileSize = FileSizer::getFileSize("file.txt","K");//in KB
 
-print_r($fileSize);//displays the returned array
+var_dump($fileSize);//displays the returned array
 
 echo "<hr>";
 
