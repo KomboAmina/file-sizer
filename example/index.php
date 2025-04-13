@@ -9,7 +9,7 @@
 
  $fileSize = FileSizer::getFileSize("file.txt","K");
 
- print_r($fileSize);
+ var_dump($fileSize);
 
  echo "<hr />";
 
